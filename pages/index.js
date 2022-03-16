@@ -25,6 +25,7 @@ export default function Home() {
       return <span>不明</span>;
     }
   };
+  
 
   return (
     <div className="App">
