@@ -14,8 +14,6 @@ export default function Home() {
     data();
   }, []);
 
-  console.log('data:', data);
-
   const kibo = (grade) => {
     if (grade === 'MajorWarning') {
       return <span style={{ color: 'red' }}>大津波警報</span>;
